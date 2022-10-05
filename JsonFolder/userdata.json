@@ -1,0 +1,26 @@
+{
+
+"logindetails":[
+
+    {
+             "Username":"jennifer",
+             "Password":"jennifer@123"
+    }
+,
+   {
+            "Username":"jasonroy",
+            "Password":"jasonroy@123"
+   }
+,
+   {
+            "Username":"johnconstantine",
+            "Password":"john@123"
+   }
+
+
+
+
+
+]
+
+}

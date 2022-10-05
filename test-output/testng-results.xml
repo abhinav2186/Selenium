@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="10" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-05T01:53:59 IST" name="Suite" finished-at="2022-10-05T01:53:59 IST" duration-ms="226">
+    <groups>
+    </groups>
+    <test started-at="2022-10-05T01:53:59 IST" name="Frontend" finished-at="2022-10-05T01:53:59 IST" duration-ms="81">
+      <class name="com.parallel.TestClass1">
+        <test-method signature="testMethod2()[pri:0, instance:com.parallel.TestClass1@41a0aa7d]" started-at="2022-10-05T01:53:59 IST" name="testMethod2" finished-at="2022-10-05T01:53:59 IST" duration-ms="19" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at com.parallel.TestClass1.testMethod2(TestClass1.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod2 -->
+        <test-method signature="testMethod1()[pri:0, instance:com.parallel.TestClass1@41a0aa7d]" started-at="2022-10-05T01:53:59 IST" name="testMethod1" finished-at="2022-10-05T01:53:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+        <test-method signature="testMethod4()[pri:0, instance:com.parallel.TestClass1@41a0aa7d]" started-at="2022-10-05T01:53:59 IST" name="testMethod4" finished-at="2022-10-05T01:53:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod4 -->
+        <test-method signature="testMethod3()[pri:0, instance:com.parallel.TestClass1@41a0aa7d]" started-at="2022-10-05T01:53:59 IST" name="testMethod3" finished-at="2022-10-05T01:53:59 IST" depends-on-methods="com.parallel.TestClass1.testMethod2" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestClass1.testMethod3()[pri:0, instance:com.parallel.TestClass1@41a0aa7d] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestClass1.testMethod3()[pri:0, instance:com.parallel.TestClass1@41a0aa7d] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod3 -->
+      </class> <!-- com.parallel.TestClass1 -->
+    </test> <!-- Frontend -->
+    <test started-at="2022-10-05T01:53:59 IST" name="Backend" finished-at="2022-10-05T01:53:59 IST" duration-ms="11">
+      <class name="com.parallel.TestClass2">
+        <test-method signature="testMethod5()[pri:0, instance:com.parallel.TestClass2@57a78e3]" started-at="2022-10-05T01:53:59 IST" name="testMethod5" finished-at="2022-10-05T01:53:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod5 -->
+        <test-method signature="testMethod6()[pri:0, instance:com.parallel.TestClass2@57a78e3]" started-at="2022-10-05T01:53:59 IST" name="testMethod6" finished-at="2022-10-05T01:53:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod6 -->
+        <test-method signature="testMethod7()[pri:0, instance:com.parallel.TestClass2@57a78e3]" started-at="2022-10-05T01:53:59 IST" name="testMethod7" finished-at="2022-10-05T01:53:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod7 -->
+        <test-method signature="testMethod8()[pri:0, instance:com.parallel.TestClass2@57a78e3]" started-at="2022-10-05T01:53:59 IST" name="testMethod8" finished-at="2022-10-05T01:53:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod8 -->
+      </class> <!-- com.parallel.TestClass2 -->
+    </test> <!-- Backend -->
+    <test started-at="2022-10-05T01:53:59 IST" name="Database" finished-at="2022-10-05T01:53:59 IST" duration-ms="11">
+      <class name="com.parallel.TestClass3">
+        <test-method signature="testMethod10()[pri:0, instance:com.parallel.TestClass3@7ce69770]" started-at="2022-10-05T01:53:59 IST" name="testMethod10" finished-at="2022-10-05T01:53:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod10 -->
+        <test-method signature="testMethod11()[pri:0, instance:com.parallel.TestClass3@7ce69770]" started-at="2022-10-05T01:53:59 IST" name="testMethod11" finished-at="2022-10-05T01:53:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod11 -->
+        <test-method signature="testMethod12()[pri:0, instance:com.parallel.TestClass3@7ce69770]" started-at="2022-10-05T01:53:59 IST" name="testMethod12" finished-at="2022-10-05T01:53:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod12 -->
+        <test-method signature="testMethod9()[pri:0, instance:com.parallel.TestClass3@7ce69770]" started-at="2022-10-05T01:53:59 IST" name="testMethod9" finished-at="2022-10-05T01:53:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod9 -->
+      </class> <!-- com.parallel.TestClass3 -->
+    </test> <!-- Database -->
+  </suite> <!-- Suite -->
+</testng-results>

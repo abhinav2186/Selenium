@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+<listeners>
+<listener class-name="com.parallel.ITestListenerClass"></listener>
+</listeners>
+
+
+	<test name="Frontend" >
+		<classes>
+			<class name="com.parallel.TestClass1"></class>
+			
+		</classes>
+
+	</test> <!-- Test -->
+
+
+	<test name="Backend">
+		<classes>
+			<class name="com.parallel.TestClass2"></class>
+		</classes>
+
+	</test> <!-- Test -->
+	
+		<test name="Database">
+		<classes>
+			<class name="com.parallel.TestClass3"></class>
+		</classes>
+
+	</test> <!-- Test -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+</suite> <!-- Suite -->
