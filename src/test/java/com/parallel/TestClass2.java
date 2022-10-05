@@ -8,7 +8,7 @@ public class TestClass2 {
 	@Test
 	public void testMethod5()
 	{
-		System.out.println("TestClass2 -> testMethod5 "+Thread.currentThread().getId());
+		System.out.println("TestClass2 -> contains this testMethod5 "+Thread.currentThread().getId());
 	}
 	
 	@Test
